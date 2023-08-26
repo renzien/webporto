@@ -30,7 +30,7 @@
 
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
 
                     <li class="nav__item">
@@ -53,6 +53,9 @@
             </div>
 
             <div class="nav__buttons">
+                <!-- Theme Change Button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
                 <!-- Toggle -->
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-function-line"></i>
@@ -406,11 +409,31 @@
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &copy; 2023 Alif Rizki. All right reserved.
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-drop-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
